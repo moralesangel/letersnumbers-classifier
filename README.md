@@ -33,7 +33,7 @@ The predictions were fast enough to use then in real time, and good enough to cl
 ![Prediction](images/prediction.png)
 
 # MATLAB dependencies
-'Deep Learning Toolbox'
-'Image Processing Toolbox'
-'Statistics and Machine Learning Toolbox'
-'Computer Vision Toolbox'
+- Deep Learning Toolbox
+- Image Processing Toolbox
+- Statistics and Machine Learning Toolbox
+- Computer Vision Toolbox
