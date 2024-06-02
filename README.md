@@ -15,11 +15,11 @@ Each image was binarized, eroded and dilated (classical computer vision techniqu
 ### Feature Extraction
 Now we will extract the main features of each letter and number in order to use it as an input. We will be using the 7-segment display concept, that basically divide the image in 7 parts as shown below for every possible card:
 
-![7-segment display concept](images/collage.png)
+![7-segment display concept](images/collage.png =x200)
 
 And we take the amount of letter/number in that section, that will be use as input for our neural network.
 
-![Example of probabilities for letter 'A'](images/segments.png)
+![Example of probabilities for letter 'A'](images/segments.png =x200)
 
 ### Training
 We will use those inputs to train a Feed Forward network with an input layer with 7 neurons, a single hidden layer with 10 neurons and a output layer with 8 neurons (since we will be using one network to classify letters and another for numbers).
