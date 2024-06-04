@@ -24,7 +24,7 @@ And we take the amount of letter/number in that section, that will be use as inp
 ### Training
 We will use those inputs to train a Feed Forward network with an input layer with 7 neurons, a single hidden layer with 10 neurons and a output layer with 8 neurons (since we will be using one network to classify letters and another for numbers).
 
-The split will be: 80% (80 images) for training and 20% (20 images) for testing so we can know how good our network is, but after that we will use every image to train the model to get as much examples as possible.
+The split will be: 80% (80 images of each letter/number) for training and 20% (20 images of each letter/number) for testing so we can know how good our network is, but after that we will use every image to train the model to get as much examples as possible.
 
 ### Results and conclusion
 The predictions were fast enough to use then in real time, and good enough to classify each card in good conditions, but also with a bit of rotation added.
